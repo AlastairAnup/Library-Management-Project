@@ -1,4 +1,5 @@
-
+CREATE DATABASE MyLibrary;
+USE MyLibrary;
 CREATE TABLE [dbo].[book_categories] (
     [id] INT NOT NULL PRIMARY KEY,
     [category] NVARCHAR(255) NOT NULL
@@ -235,6 +236,7 @@ VALUES
 (28, 28, 28, 1, '2025-08-01', '2025-08-31'),
 (29, 29, 29, 1, '2025-08-01', '2025-08-31'),
 (30, 30, 30, 1, '2025-08-01', '2025-08-31');
+
 
 
 
